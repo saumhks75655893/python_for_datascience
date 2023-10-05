@@ -1,6 +1,5 @@
-# CONDITIONAL STATEMENTS : -----------
-
 # Some functions : ----------
+
 # i.  round() function : ------------------
 
 print("\n SOME IMPORTANT FUNCTION  \n")
