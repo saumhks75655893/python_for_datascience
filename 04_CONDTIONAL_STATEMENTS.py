@@ -11,7 +11,7 @@ if a > b:
 
 if (a > b):
     print(f"a is greater. {a}")
-if (b > a):
+if (b > a): 
     print(f"b is greater. {b}")
 
 # IF ELSE STATEMENT : ----------
@@ -36,6 +36,9 @@ else:
 # print("A") if a > b else print("=") if a == b else print("B")
 
 # NESTED - If - else : ---------------------
+
+
+
 
 x = int(input("Enter a number  : "))
 if x > 10:
