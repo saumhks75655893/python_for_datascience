@@ -37,7 +37,6 @@ print("A") if a > b else print("=") if a == b else print("B")
 
 # NESTED - If - else : ---------------------
 
-
 x = int(input("Enter a number  : "))
 if x > 10:
     print(f"Your Number is above ten = {x}")
