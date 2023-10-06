@@ -37,9 +37,12 @@ else:
 
 # NESTED - If - else : ---------------------
 
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> 73f156ced3e84f56816789a8af4ae3921ac8cec3
 x = int(input("Enter a number  : "))
 if x > 10:
     print(f"Your Number is above ten = {x}")
