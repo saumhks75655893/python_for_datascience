@@ -4,7 +4,7 @@
 
 l = []
 print("[",end='')
-for i in range(10):
+for i in range(11):
     print(i, end=', ')
    
     l.append(i**2)
