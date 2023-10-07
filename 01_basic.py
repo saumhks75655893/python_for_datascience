@@ -29,3 +29,9 @@ print(a)
 
 '''
 
+# VALUE TO ASCII : ----
+char = 'a'
+print(ord(char))
+
+# ASCII  to  VALUE : ----
+print(chr(98))
