@@ -49,4 +49,61 @@ print((x<y) and (z<y) or (r==x))
 
 print(not(2!=3) and True or (False and True))
 
+# 3. ARITHEMETIC OPERATOR : ------
 
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+
+
+#  4. LOGICAL OPERATOR : -------------
+
+print( (2>1) and (1>2))
+print( (2>1) or (1>2))
+print(not (1>2))
+
+#  5. Identity Operator : -----------
+
+a = "Ram"
+b = "Ram"
+print( a is b)
+print(a is not b)
+
+#  6. Membership Operator : --------
+
+A = "I am himanshu kumar"
+B = "am"
+print(B in A)
+print(B not in A)
+
+# 7. Bitwise Operator : -----------
+
+a = 10
+b = 11
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(~ b)    # 1'st compliment
+print(b >> 2)   # right shift
+print(a << 1)   # left shift
+print(-1 >> 11)
+
+# answer will -1 , of all three which is given below : ----------
+
+print(-1 >> 10)
+print(-1 >> 4)
+print(-1 >> 9)
+
+print(True & False)
+print(True | False)
+print(True ^ False)
+print(~False)
+print(~True)
+print( True >> 2)
+print( True << 2)
+print( False >> 2)
+print( False << 2)
