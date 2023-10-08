@@ -6,4 +6,3 @@ print(f" a = %d and b = %d"%(a,b))
 
 print(f"a = {a} and b  = {b}.")
 
-print("Hello world")
