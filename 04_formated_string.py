@@ -70,4 +70,4 @@ print(f"%(name)-10s and %(age)10d" %c )
 
 print('name : {} and age {}'.format('Himanshu',20))
 print('name : {name:10} and age {age:10}'.format(name='Himanshu', age=20))
-print('name : {0[name]} and age {0[age]}'.format({'name':'Himanshu','age':20}))
+print('name : {0[name]} and age {0[age]}'.format({'name':'Himanshu','age':20}))                                                                                                        
