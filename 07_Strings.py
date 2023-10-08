@@ -6,7 +6,7 @@ print(f"b = %r" % "Hello")  # this will print hello with single inverted comma.
 # this will also print hello with single inverted comma.
 print(f"c = %a" % 'Hello')
 
-# Widht specifier : -----------
+# Width specifier : -----------
 
 print(f"a = %15s" % 'Himanshu kumar')
 
