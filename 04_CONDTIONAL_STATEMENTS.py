@@ -1,3 +1,4 @@
+
 #  CONDITIONAL STATEMENT : ----------
 
 a = int(input("Enter the value of a : "))
@@ -35,7 +36,7 @@ else:
 
 print("A") if a > b else print("=") if a == b else print("B")
 
-# NESTED - If - else : ---------------------
+# NESTED  If - else : ---------------------
 
 x = int(input("Enter a number  : "))
 if x > 10:
@@ -62,3 +63,17 @@ else:
 
 
 print("Outside all if else statement.")
+
+# Print return none : ------
+
+if(print("Hello")):
+    print("Yes")
+else: 
+    print("No")
+
+# result is yes : -----------
+
+if(int(input("Enter the value : "))):
+    print("Yes")
+else: 
+    print("No")
