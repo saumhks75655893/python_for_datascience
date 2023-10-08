@@ -42,3 +42,16 @@ print("*"*40, "\n")
 d = {"apple": 44, "cherry": 30}
 for i in d:
     print(f"The number of '{i}' is '{d[i]}' ")
+    
+    
+# A PROGRAM :-------------
+
+x = 4
+y = 0
+while x>=0: 
+    x -= 1
+    y += 1
+    if x == y:
+        continue
+    else:
+        print(x, y)
