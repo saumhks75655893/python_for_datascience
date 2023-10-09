@@ -8,6 +8,14 @@ while (i <= n):
     print(f"This is iteration number,  {i}  and the answer is  =  {i**2}")
     i += 1
 
+i = 1
+while(i<=10):
+    print(i)
+    if(i==5):
+        break
+    i += 1
+else:
+    print("Out the while statement.")
 # print even from n numbers
 
 n = int(input("Enter the number : "))
