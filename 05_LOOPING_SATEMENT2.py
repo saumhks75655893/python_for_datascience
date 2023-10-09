@@ -55,3 +55,51 @@ while x>=0:
         continue
     else:
         print(x, y)
+
+#  Prime Number program : ---------
+print("*"*70)
+print("Prime Number Program ")
+print("*"*70)
+
+n = int(input("Enter a number : "))
+flag = 0
+for i in range(2,n):
+    if n%i == 0:
+        flag = 1
+        break
+
+if flag == 1: 
+    print(f"{n} Not a prime number.")
+else:
+    print(f"{n} is a prime number.")
+
+#  ELSE and BREAK WITH FOR LOOP :------------------
+print("*"*70)
+print("ELSE and BREAK WITH FOR LOOP")
+print("*"*70)
+
+
+n = int(input("Enter the value of n : "))
+
+for i in range(2,n):
+    print(f"Position is : {i}")
+    if i == 7: 
+        break
+else:
+    print("out the loop statement.")
+
+#  ELSE and CONTINUE WITH FOR LOOP :------------------
+
+print("*"*70)
+print("ELSE and CONTINUE WITH FOR LOOP")
+print("*"*70)
+
+
+n = int(input("Enter the value of n : "))
+
+for i in range(2,n):
+    print(f"Position is : {i}")
+    if i == 7: 
+        continue
+else:
+    print("Out of the for loop body.")
