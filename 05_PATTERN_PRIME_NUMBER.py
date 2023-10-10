@@ -2,15 +2,14 @@
 
 n = int(input("Enter the number : "))
 
-flag = 0
 i = 2
-while (i <= n):
-    for var in range(2, i):
+while i<=n: 
+    flag = 0
+    for var in range(1, i+1):
         if (i % var == 0):
-            flag = 1
-            break
+            flag += 1
 
-    if (flag == 0):
+    if (flag == 2):
         print(i, end=' ')
+    i = i+1
 
-    i = i + 1
