@@ -14,3 +14,18 @@ When any photo is uploaded following events may occur.
 Given, L,N,W and H as input, print appropriate text as output.     
 '''
 
+L = int(input("Enter the value : "))
+N = int(input("Enter the Number of Photos : "))
+
+
+for i in range(N):
+    W = int(input("Enter the value : "))
+    H = int(input("Enter the value : "))
+
+    if W < L or H < L:
+        print("UPLOAD ANOTHER.....")
+    elif W >= L or H >= L:
+        if (W == L) and (H == L):
+            print("ACCEPTED....")
+        else:
+            print("CROP IT .... ")
