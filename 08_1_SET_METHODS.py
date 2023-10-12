@@ -22,8 +22,35 @@
 # s.remove(1)
 # print(s)
 
-# 4. descard() - It's like remove method. It never gives error either element is exist or not. 
+# # 4. descard() - It's like remove method. It never gives error either element is exist or not. 
 
-s = {1,2,3}
-s.discard(55)
-print(s)
+# s = {1,2,3}
+# s.discard(55)
+# print(s)
+
+# # copy() - The copy method returns a shallow copy of the set.
+
+# s1 = {1,2,3}
+# s2 = s1
+# s3 = s1.copy()
+# s3.add((34,39))
+# s2.add(4)
+# print("Original set : ", s1)
+# print("Assignment copy : ",s2)
+# print("Copy method  :  ",s3) 
+
+# # update() -  The Python set update() method updates the set, adding items from other iterables.
+
+# s = {1,2,3,4}
+# s1 = {5,6}
+# t = (7,8)
+# l = [9,10,11]
+# s.update(s1)
+# print(s)
+# s.update(t)
+# s.update(l)
+# print(s)
+
+# s.update(s1,t,l)
+# print(s)
+
