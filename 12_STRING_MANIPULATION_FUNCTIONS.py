@@ -49,3 +49,24 @@
 # print(r)
 
 # 6. 
+# s = "This is Python is Programming"
+# r = s.partition("is")
+# print(s)
+# print(r)
+# r = s.rpartition("is")
+# print(s)
+# print(r)
+
+# 7. 
+# s = "This is Python is Programming"
+# r = s.split()
+# r = s.split(' ',2)
+# print(r)
+# s = "This ,is ,Python ,is, Programming"
+# r = s.rsplit(" ," , 2)
+# print(r)
+
+# 8. 
+s = "HAPPY \n NEW \n YEAR"
+r = s.splitlines()
+print(r)
