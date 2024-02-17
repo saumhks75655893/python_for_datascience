@@ -35,3 +35,25 @@ print(ord(char))
 
 # ASCII  to  VALUE : ----
 print(chr(98))
+
+# SOME OTHER CHARACTER PRINTING : ------------
+
+print(f'%c' % '\101')
+print(f'%c' % '\u20b9')
+print(f'%c' % '\U000020b9')
+print(f'%c' % '\u20b1')
+print(f'%c' % '\U000020b1')
+print(f'%c' % '\u20b2')
+print(f'%c' % '\U000020b2')
+print(f'%c' % '\u20b3')
+print(f'%c' % '\U000020b3')
+print(f'%c' % '\u20b4')
+print(f'%c' % '\U000020b4')
+print(f'%c' % '\u20b5')
+print(f'%c' % '\U000020b5')
+print(f'%c' % '\u20b6')
+print(f'%c' % '\U000020b6')
+print(f'%c' % '\u20b7')
+print(f'%c' % '\U000020b7')
+print(f'%c' % '\u20b8')
+print(f'%c' % '\U000020b8')

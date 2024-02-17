@@ -42,3 +42,79 @@ print("*"*40, "\n")
 d = {"apple": 44, "cherry": 30}
 for i in d:
     print(f"The number of '{i}' is '{d[i]}' ")
+    
+    
+# A PROGRAM :-------------
+
+x = 4
+y = 0
+while x>=0: 
+    x -= 1
+    y += 1
+    if x == y:
+        continue
+    else:
+        print(x, y)
+
+#  Prime Number program : ---------
+print("*"*70)
+print("Prime Number Program ")
+print("*"*70)
+
+n = int(input("Enter a number : "))
+flag = 0
+for i in range(2,n):
+    if n%i == 0:
+        flag = 1
+        break
+
+if flag == 1: 
+    print(f"{n} Not a prime number.")
+else:
+    print(f"{n} is a prime number.")
+
+#  ELSE and BREAK WITH FOR LOOP :------------------
+print("*"*70)
+print("ELSE and BREAK WITH FOR LOOP")
+print("*"*70)
+
+
+n = int(input("Enter the value of n : "))
+
+for i in range(2,n):
+    print(f"Position is : {i}")
+    if i == 7: 
+        break
+else:
+    print("out the loop statement.")
+
+#  ELSE and CONTINUE WITH FOR LOOP :------------------
+
+print("*"*70)
+print("ELSE and CONTINUE WITH FOR LOOP")
+print("*"*70)
+
+
+n = int(input("Enter the value of n : "))
+
+for i in range(2,n):
+    print(f"Position is : {i}")
+    if i == 7: 
+        continue
+else:
+    print("Out of the for loop body.")
+
+# THREE VARIABLE AT ONE ONCE : ---------
+
+
+print("*"*70)
+print("THREE VARIABLE AT ONE ONCE")
+print("*"*70)
+
+for a, b, c in [(1,2,3),(4,5,6),(7,8,9),(2,8,6)]:
+    print(f"{a}   -    {b}    -   {c}")
+
+
+
+
+

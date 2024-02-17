@@ -107,3 +107,16 @@ print( True >> 2)
 print( True << 2)
 print( False >> 2)
 print( False << 2)
+
+# ---------------------:  Ternary Operator  : ------------------------ #
+
+# Write a program to check if number is odd or even using ternary operator. 
+
+number = int(input("Enter the number : "))
+
+print("Even" if number%2==0 else "odd")
+
+a = 12
+b = 11
+
+print({True: "This is run on True", False : "This is run on False"}[a>b])
