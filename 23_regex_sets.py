@@ -30,3 +30,7 @@ print(match)
 a = "HiHello12"
 match = re.findall("[a-zA-Z]",a)
 print(match)
+
+a = "HiHello@#$"
+match = re.findall("[$]",a)
+print(match)

@@ -4,34 +4,34 @@ import math
 #  Lambda function is also a user - defined function but ananymous.
 
 
-# def add(x): return x * 200
-# print(add(4))
+def add(x): return x * 200
+print(add(4))
 
-# print((lambda a, b: a * b)(5, 7))
-
-
-# def product(x, y, z): return x * y * z
+print((lambda a, b: a * b)(5, 7))
 
 
-# print(product(z=4, x=10, y=4))
+def product(x, y, z): return x * y * z
 
 
-# def add(x, y=15, z=24): return x + y + z
+print(product(z=4, x=10, y=4))
 
 
-# print(add(20))
-
-# addition = lambda *args: sum(args)
-# print(addition(20, 30, 5, 28, 4, 50, 67, 89))
-
-# def higher_ord_fun(x, fun): return x + fun(x)
+def add(x, y=15, z=24): return x + y + z
 
 
-# print(higher_ord_fun(20, lambda x: x * x))
+print(add(20))
 
-# print((lambda x: x % 2 and 'odd' or 'even')(13))
+addition = lambda *args: sum(args)
+print(addition(20, 30, 5, 28, 4, 50, 67, 89))
 
-# print((lambda string : string in "Welcome to Python Functions tutorial")('To'))
+def higher_ord_fun(x, fun): return x + fun(x)
+
+
+print(higher_ord_fun(20, lambda x: x * x))
+
+print((lambda x: x % 2 and 'odd' or 'even')(13))
+
+print((lambda string : string in "Welcome to Python Functions tutorial")('To'))
 
 # filter function :-----------
 
