@@ -29,5 +29,5 @@ htmlstr = html.decode()
 
 phn = findall(r"\(\d{3}\) \d{3}-\d{4}", htmlstr)
 
-for i in phn: 
-    print(i)
+for phone in phn: 
+    print(phone)
