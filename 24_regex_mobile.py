@@ -8,7 +8,7 @@ I'm a student.
 My phone numbers are: +1 555 123-4567, 0044 7987 654 3210, and 91 9876 543210.
 '''
 
-f1 = open('input1.txt','r')
+f1 = open('input.txt','r')
 f2 = open('output.txt','w')
 for line in f1:
     print(line)
