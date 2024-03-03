@@ -27,7 +27,7 @@ a = urllib.request.urlopen(url)
 html = a.read()
 htmlstr = html.decode()
 
-phn = findall(r"\(\d{3}\) \d{3}-\d{4}", htmlstr)
+phOn = findall(r"\(\d{3}\) \d{3}-\d{4}", htmlstr)
 
-for phone in phn: 
+for phone in phOn: 
     print(phone)
